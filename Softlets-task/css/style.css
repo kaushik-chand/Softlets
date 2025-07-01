@@ -1,0 +1,439 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Montserrat", sans-serif;
+}
+
+header{
+    background-color: #1D65C1;
+}
+
+
+
+/* resp nav bar start */
+
+/* burger start */
+section header nav #Burger{
+    display: none;
+}
+
+section header nav label{
+    display: none;
+    font-size: 24px;
+}
+
+/* burger end */
+
+/* profile start */
+
+section header nav .profile{
+    display: none;
+}
+
+section header nav #profile{
+    display: none;
+}
+
+
+
+/* profile end */
+
+
+
+
+/* resp nav bar end */
+
+
+
+/* Style guide font start */
+
+.primary-font{
+    font-size: 24px;
+}
+
+.primary-big{
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.primary-semibold-font{
+    font-size: 54px;
+    font-weight: 600;
+}
+
+.primary-bold-font{
+    font-size: 54px;
+    font-weight: 700;
+}
+
+
+.secondary-font{
+    font-size: 20px;
+}
+
+.secondary-big{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.secondary-bold-font{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.teritory-font{
+    font-size: 16px;
+}
+
+.card-big-font{
+    font-size: 45px;
+    font-weight: 500;
+}
+/* Style guide font end */
+
+
+
+
+/* Style guide color start */
+
+.primary-color{
+    color: #1D65C1;
+}
+
+.primary-color-bg{
+    background-color: #1D65C1;
+}
+
+
+.primary-color-hover{
+    color: #052373;
+}
+
+.primary-color-hover-bg{
+    background-color: #052373;
+}
+
+/* .primary-color-hover-bg{
+    background-color: #2987FF;
+} */
+
+.secondary-color{
+    color: #344854;
+}
+
+.secondary-color-bg{
+    background-color: #344854;
+}
+
+.secondary-color-hover{
+    color: #4D6A7C;
+}
+
+
+.secondary-color-hover-bg{
+    background-color: #4D6A7C;
+}
+
+.teritory-color{
+    color: #FFFFFF;
+}
+
+.teritory-color-bg{
+    background-color: #FFFFFF;
+}
+
+
+.teritory-color-hover{
+    color: #D9D9D9;
+}
+
+
+.teritory-color-hover-bg{
+    background-color: #D9D9D9;
+}
+
+.background-color{
+    background-color: #ECECEC;
+}
+
+
+.price-bg{
+    background-color: #E4E4E4;
+}
+
+
+/* Style guide color end */
+
+
+
+
+
+/* Nav bar start */
+
+/* section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+} */
+
+
+
+header{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    border-bottom: solid rgba(0, 0, 0, 0.197);
+}
+
+header nav .first{
+    display: flex;
+    gap: 30px;
+}
+
+
+nav{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* gap: 151px; */
+    padding: 40px 70px;
+    position: relative;
+    /* background-color: antiquewhite; */
+}
+
+
+
+nav ul{
+    display: flex;
+    gap: 82px;
+}
+
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+
+nav .button-container{
+    position: relative; 
+    display: flex;
+    gap: 57px;
+}
+
+
+nav .button-container .one{
+    padding: 10px 23px;
+    border: none;
+    border-radius: 26px;
+    cursor: pointer;   
+}
+
+nav .button-container .one:hover{
+    background-color: #4D6A7C;
+}
+
+
+nav .button-container .two{
+    padding: 10px 23px;
+    border: none;
+    border-radius: 26px;
+    cursor: pointer;   
+}
+
+
+nav .button-container .two:hover{
+    background-color: #2987FF;
+}
+
+/* Nav bar end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer start */
+
+footer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+    gap: 50px;
+}
+
+footer .total-container{
+    width: 70%;
+    height: auto;
+    padding-top: 52px;
+    padding-bottom: 60px;
+    display: flex;
+    /* flex-direction: column; */
+    gap: 53px;
+    /* padding-left: 250px; */
+}
+
+footer .container-one{
+    width: 20.5%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+footer .container-one .paragraph-container{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+footer .container-one .icons{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+footer .container-one .icons .instagram img, footer .container-one .icons .facebook img{
+    width: 32px;
+    height: 32px;
+}
+
+footer .container-one .icons .youtube img{
+    width: auto;
+    height: 32px;
+}
+
+
+footer .container-two{
+    width: auto;
+    height: 234px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+
+footer .container-two ul{
+    display: flex;
+    flex-direction: column  ;
+    gap: 18px;
+}
+
+footer .container-two ul li{
+    list-style: none;
+
+}
+
+footer .container-two ul a{
+    text-decoration: none;
+}
+
+
+footer .container-three{
+    width: 800px;
+    /* background-color: #052373; */
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+footer .container-three ul li{
+    list-style: none;
+
+}
+
+footer .container-three ul{
+    display: flex;
+    flex-direction: column  ;
+    gap: 18px;
+}
+
+footer .container-three ul a{
+    text-decoration: none;
+}
+
+
+
+footer .container-four{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+footer .container-four ul li{
+    list-style: none;
+
+}
+
+footer .container-four ul{
+    display: flex;
+    flex-direction: column  ;
+    gap: 18px;
+}
+
+footer .container-four ul a{
+    text-decoration: none;
+}
+
+
+footer .container-five{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+
+
+footer .copyright-container{
+    width: 80%;
+    text-align: center;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+
+.application{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+footer .container-five .application img{
+    width: 159px;
+    height: auto;
+}
+
+/* Footer end */
+
